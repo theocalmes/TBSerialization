@@ -12,13 +12,21 @@
 		E4278F041891D37700C2F8BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4278F031891D37700C2F8BF /* UIKit.framework */; };
 		E4278F0A1891D37700C2F8BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4278F081891D37700C2F8BF /* InfoPlist.strings */; };
 		E4278F0C1891D37700C2F8BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F0B1891D37700C2F8BF /* main.m */; };
-		E4278F101891D37700C2F8BF /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F0F1891D37700C2F8BF /* TBAppDelegate.m */; };
 		E4278F121891D37700C2F8BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4278F111891D37700C2F8BF /* Images.xcassets */; };
 		E4278F191891D37700C2F8BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4278F181891D37700C2F8BF /* XCTest.framework */; };
 		E4278F1A1891D37700C2F8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4278EFF1891D37700C2F8BF /* Foundation.framework */; };
 		E4278F1B1891D37700C2F8BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4278F031891D37700C2F8BF /* UIKit.framework */; };
 		E4278F231891D37700C2F8BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4278F211891D37700C2F8BF /* InfoPlist.strings */; };
 		E4278F251891D37700C2F8BF /* TBSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F241891D37700C2F8BF /* TBSerializationTests.m */; };
+		E4278F411891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F2F1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m */; };
+		E4278F421891D39200C2F8BF /* TBManagedObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F311891D39200C2F8BF /* TBManagedObjectTransformer.m */; };
+		E4278F431891D39200C2F8BF /* TBParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F331891D39200C2F8BF /* TBParseOperation.m */; };
+		E4278F441891D39200C2F8BF /* TBPersistence-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4278F341891D39200C2F8BF /* TBPersistence-Info.plist */; };
+		E4278F451891D39200C2F8BF /* TBPropertyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F371891D39200C2F8BF /* TBPropertyMap.m */; };
+		E4278F461891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F391891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m */; };
+		E4278F471891D39200C2F8BF /* TBRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F3B1891D39200C2F8BF /* TBRemoteObject.m */; };
+		E4278F481891D39200C2F8BF /* TBRemoteObjectTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F3D1891D39200C2F8BF /* TBRemoteObjectTraversal.m */; };
+		E4278F491891D39200C2F8BF /* TBValueTransformations.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F401891D39200C2F8BF /* TBValueTransformations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +48,31 @@
 		E4278F091891D37700C2F8BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4278F0B1891D37700C2F8BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4278F0D1891D37700C2F8BF /* TBSerialization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBSerialization-Prefix.pch"; sourceTree = "<group>"; };
-		E4278F0E1891D37700C2F8BF /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
-		E4278F0F1891D37700C2F8BF /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
 		E4278F111891D37700C2F8BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4278F171891D37700C2F8BF /* TBSerializationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBSerializationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4278F181891D37700C2F8BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E4278F201891D37700C2F8BF /* TBSerializationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBSerializationTests-Info.plist"; sourceTree = "<group>"; };
 		E4278F221891D37700C2F8BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4278F241891D37700C2F8BF /* TBSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBSerializationTests.m; sourceTree = "<group>"; };
+		E4278F2E1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TBRecursiveKVC.h"; sourceTree = "<group>"; };
+		E4278F2F1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBRecursiveKVC.m"; sourceTree = "<group>"; };
+		E4278F301891D39200C2F8BF /* TBManagedObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBManagedObjectTransformer.h; sourceTree = "<group>"; };
+		E4278F311891D39200C2F8BF /* TBManagedObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBManagedObjectTransformer.m; sourceTree = "<group>"; };
+		E4278F321891D39200C2F8BF /* TBParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBParseOperation.h; sourceTree = "<group>"; };
+		E4278F331891D39200C2F8BF /* TBParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBParseOperation.m; sourceTree = "<group>"; };
+		E4278F341891D39200C2F8BF /* TBPersistence-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TBPersistence-Info.plist"; sourceTree = "<group>"; };
+		E4278F351891D39200C2F8BF /* TBPersistence-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBPersistence-Prefix.pch"; sourceTree = "<group>"; };
+		E4278F361891D39200C2F8BF /* TBPropertyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPropertyMap.h; sourceTree = "<group>"; };
+		E4278F371891D39200C2F8BF /* TBPropertyMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPropertyMap.m; sourceTree = "<group>"; };
+		E4278F381891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteIdentifierToManagedObjectIDCache.h; sourceTree = "<group>"; };
+		E4278F391891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteIdentifierToManagedObjectIDCache.m; sourceTree = "<group>"; };
+		E4278F3A1891D39200C2F8BF /* TBRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteObject.h; sourceTree = "<group>"; };
+		E4278F3B1891D39200C2F8BF /* TBRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteObject.m; sourceTree = "<group>"; };
+		E4278F3C1891D39200C2F8BF /* TBRemoteObjectTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteObjectTraversal.h; sourceTree = "<group>"; };
+		E4278F3D1891D39200C2F8BF /* TBRemoteObjectTraversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteObjectTraversal.m; sourceTree = "<group>"; };
+		E4278F3E1891D39200C2F8BF /* TBSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSerializable.h; sourceTree = "<group>"; };
+		E4278F3F1891D39200C2F8BF /* TBValueTransformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBValueTransformations.h; sourceTree = "<group>"; };
+		E4278F401891D39200C2F8BF /* TBValueTransformations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBValueTransformations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +132,25 @@
 		E4278F051891D37700C2F8BF /* TBSerialization */ = {
 			isa = PBXGroup;
 			children = (
-				E4278F0E1891D37700C2F8BF /* TBAppDelegate.h */,
-				E4278F0F1891D37700C2F8BF /* TBAppDelegate.m */,
+				E4278F2E1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.h */,
+				E4278F2F1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m */,
+				E4278F301891D39200C2F8BF /* TBManagedObjectTransformer.h */,
+				E4278F311891D39200C2F8BF /* TBManagedObjectTransformer.m */,
+				E4278F321891D39200C2F8BF /* TBParseOperation.h */,
+				E4278F331891D39200C2F8BF /* TBParseOperation.m */,
+				E4278F341891D39200C2F8BF /* TBPersistence-Info.plist */,
+				E4278F351891D39200C2F8BF /* TBPersistence-Prefix.pch */,
+				E4278F361891D39200C2F8BF /* TBPropertyMap.h */,
+				E4278F371891D39200C2F8BF /* TBPropertyMap.m */,
+				E4278F381891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.h */,
+				E4278F391891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m */,
+				E4278F3A1891D39200C2F8BF /* TBRemoteObject.h */,
+				E4278F3B1891D39200C2F8BF /* TBRemoteObject.m */,
+				E4278F3C1891D39200C2F8BF /* TBRemoteObjectTraversal.h */,
+				E4278F3D1891D39200C2F8BF /* TBRemoteObjectTraversal.m */,
+				E4278F3E1891D39200C2F8BF /* TBSerializable.h */,
+				E4278F3F1891D39200C2F8BF /* TBValueTransformations.h */,
+				E4278F401891D39200C2F8BF /* TBValueTransformations.m */,
 				E4278F111891D37700C2F8BF /* Images.xcassets */,
 				E4278F061891D37700C2F8BF /* Supporting Files */,
 			);
@@ -220,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4278F441891D39200C2F8BF /* TBPersistence-Info.plist in Resources */,
 				E4278F0A1891D37700C2F8BF /* InfoPlist.strings in Resources */,
 				E4278F121891D37700C2F8BF /* Images.xcassets in Resources */,
 			);
@@ -240,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4278F101891D37700C2F8BF /* TBAppDelegate.m in Sources */,
 				E4278F0C1891D37700C2F8BF /* main.m in Sources */,
+				E4278F481891D39200C2F8BF /* TBRemoteObjectTraversal.m in Sources */,
+				E4278F411891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m in Sources */,
+				E4278F461891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m in Sources */,
+				E4278F471891D39200C2F8BF /* TBRemoteObject.m in Sources */,
+				E4278F451891D39200C2F8BF /* TBPropertyMap.m in Sources */,
+				E4278F421891D39200C2F8BF /* TBManagedObjectTransformer.m in Sources */,
+				E4278F491891D39200C2F8BF /* TBValueTransformations.m in Sources */,
+				E4278F431891D39200C2F8BF /* TBParseOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
