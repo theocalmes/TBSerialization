@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Theodore Calmes. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
+
 @class TBRemoteObjectTraversal;
 @protocol TBSerializable;
 

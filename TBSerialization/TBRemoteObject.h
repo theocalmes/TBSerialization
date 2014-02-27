@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Theodore Calmes. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
+
 @protocol TBSerializable;
 
 /** `TBRemoteObject` is a bridge between JSON and an `NSManagedObject` subclass's property key paths. This class allows you to access a JSON dictionary as if you were accessing methods on an `NSManagedObject` instance.
