@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 thoughtbot. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
 @class TBRemoteIdentifierToManagedObjectIDCache;
 
 /**

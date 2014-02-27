@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 thoughtbot. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
 @class TBRemoteObject;
 
 /** The `TBRemoteIdentifierToManagedObjectIDCache` provides a very quick solution to existance checking. Given an array of `TBRemoteObject` instances it will parse out every class' remote identifiers and perform batch `NSManagedObjectID` fetches on these and cache the result for quick access by `TBManagedObjectTransformer`.
