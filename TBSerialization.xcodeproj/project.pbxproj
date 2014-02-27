@@ -12,7 +12,6 @@
 		E499126218BFC6D8008DAF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E499126118BFC6D8008DAF74 /* UIKit.framework */; };
 		E499126818BFC6D8008DAF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E499126618BFC6D8008DAF74 /* InfoPlist.strings */; };
 		E499126A18BFC6D8008DAF74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E499126918BFC6D8008DAF74 /* main.m */; };
-		E499126E18BFC6D8008DAF74 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E499126D18BFC6D8008DAF74 /* TBAppDelegate.m */; };
 		E499127018BFC6D8008DAF74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E499126F18BFC6D8008DAF74 /* Images.xcassets */; };
 		E499127718BFC6D8008DAF74 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E499127618BFC6D8008DAF74 /* XCTest.framework */; };
 		E499127818BFC6D8008DAF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E499125D18BFC6D8008DAF74 /* Foundation.framework */; };
@@ -49,8 +48,6 @@
 		E499126718BFC6D8008DAF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E499126918BFC6D8008DAF74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E499126B18BFC6D8008DAF74 /* TBSerialization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBSerialization-Prefix.pch"; sourceTree = "<group>"; };
-		E499126C18BFC6D8008DAF74 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
-		E499126D18BFC6D8008DAF74 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
 		E499126F18BFC6D8008DAF74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E499127518BFC6D8008DAF74 /* TBSerializationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBSerializationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E499127618BFC6D8008DAF74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -155,8 +152,6 @@
 				E499129A18BFC73F008DAF74 /* TBSerializable.h */,
 				E499129B18BFC73F008DAF74 /* TBValueTransformations.h */,
 				E499129C18BFC73F008DAF74 /* TBValueTransformations.m */,
-				E499126C18BFC6D8008DAF74 /* TBAppDelegate.h */,
-				E499126D18BFC6D8008DAF74 /* TBAppDelegate.m */,
 				E499126F18BFC6D8008DAF74 /* Images.xcassets */,
 				E499126418BFC6D8008DAF74 /* Supporting Files */,
 			);
@@ -295,7 +290,6 @@
 				E499129E18BFC73F008DAF74 /* TBManagedObjectTransformer.m in Sources */,
 				E499129D18BFC73F008DAF74 /* NSMutableDictionary+TBRecursiveKVC.m in Sources */,
 				E49912A218BFC73F008DAF74 /* TBRemoteObject.m in Sources */,
-				E499126E18BFC6D8008DAF74 /* TBAppDelegate.m in Sources */,
 				E499126A18BFC6D8008DAF74 /* main.m in Sources */,
 				E49912A018BFC73F008DAF74 /* TBPropertyMap.m in Sources */,
 			);

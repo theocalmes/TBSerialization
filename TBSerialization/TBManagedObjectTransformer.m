@@ -166,8 +166,6 @@
             continue;
         }
 
-        NSLog(@"Relationship %@", relationship.name);
-
         id value = nil;
 
         if ([relationship isToMany]) {

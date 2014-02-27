@@ -7,7 +7,6 @@
 //
 
 #import "TBRemoteObjectTraversal.h"
-#import "TBSerialization.h"
 
 @implementation TBRemoteObjectTraversal
 
