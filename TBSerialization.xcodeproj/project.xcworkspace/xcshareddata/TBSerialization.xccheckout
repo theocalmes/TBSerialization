@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>396216CC-1B1F-40EA-B913-ECA7F646E64F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TBSerialization</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F973C985-6771-4AAB-923D-903BCD201990</key>
+		<string>ssh://github.com/theocalmes/TBPersistance.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TBSerialization.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F973C985-6771-4AAB-923D-903BCD201990</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/theocalmes/TBPersistance.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F973C985-6771-4AAB-923D-903BCD201990</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F973C985-6771-4AAB-923D-903BCD201990</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TBPersistance</string>
+		</dict>
+	</array>
+</dict>
+</plist>

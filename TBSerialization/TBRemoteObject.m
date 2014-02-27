@@ -75,8 +75,8 @@
 
 - (BOOL)hasUniqueIdentifier
 {
-    Class<TBUniquelySerializable> localObjectClass = (Class<TBUniquelySerializable>)self.localObjectClass;
-    return !![localObjectClass uniqueIdentifierFromRemoteObject:self];
+    Class localObjectClass = (Class<TBUniquelySerializable>)self.localObjectClass;
+    return [localObjectClass conformsToProtocol:@protocol(TBUniquelySerializable)];
 }
 
 - (NSString *)localKeyPathForUniqueIdentifier

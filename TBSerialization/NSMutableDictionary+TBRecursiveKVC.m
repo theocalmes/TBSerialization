@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 AllTrails. All rights reserved.
 //
 
-#import "NSMutableDictionary+ATRecursiveKVC.h"
+#import "NSMutableDictionary+TBRecursiveKVC.h"
 
 @implementation NSMutableDictionary (TBRecursiveKVC)
 

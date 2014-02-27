@@ -90,14 +90,15 @@
         for (TBRemoteObject *object in remoteObjects) {
             [managedObjects addObject:[weakSelf managedObjectForRemoteObject:object]];
         }
+        
+        if (managedObjects.count == 0) {
+            return;
+        }
 
-        for (NSManagedObject *object in managedObjects) {
-            if ([relationship isToMany]) {
-                NSMutableSet *mutablePrimative = [managedObject mutableSetValueForKey:relationship.name];
-                [mutablePrimative addObject:object];
-            } else {
-                [managedObject setValue:object forKey:relationship.name];
-            }
+        if ([relationship isToMany]) {
+            [managedObject setValue:[NSSet setWithArray:managedObjects] forKey:relationship.name];
+        } else {
+            [managedObject setValue:[managedObjects lastObject] forKey:relationship.name];
         }
     }];
 

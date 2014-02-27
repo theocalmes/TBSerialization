@@ -19,14 +19,13 @@
 		E4278F231891D37700C2F8BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4278F211891D37700C2F8BF /* InfoPlist.strings */; };
 		E4278F251891D37700C2F8BF /* TBSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F241891D37700C2F8BF /* TBSerializationTests.m */; };
 		E4278F411891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F2F1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m */; };
-		E4278F421891D39200C2F8BF /* TBManagedObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F311891D39200C2F8BF /* TBManagedObjectTransformer.m */; };
-		E4278F431891D39200C2F8BF /* TBParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F331891D39200C2F8BF /* TBParseOperation.m */; };
-		E4278F441891D39200C2F8BF /* TBPersistence-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4278F341891D39200C2F8BF /* TBPersistence-Info.plist */; };
-		E4278F451891D39200C2F8BF /* TBPropertyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F371891D39200C2F8BF /* TBPropertyMap.m */; };
-		E4278F461891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F391891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m */; };
-		E4278F471891D39200C2F8BF /* TBRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F3B1891D39200C2F8BF /* TBRemoteObject.m */; };
-		E4278F481891D39200C2F8BF /* TBRemoteObjectTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F3D1891D39200C2F8BF /* TBRemoteObjectTraversal.m */; };
-		E4278F491891D39200C2F8BF /* TBValueTransformations.m in Sources */ = {isa = PBXBuildFile; fileRef = E4278F401891D39200C2F8BF /* TBValueTransformations.m */; };
+		E499124A18BFC38A008DAF74 /* TBManagedObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E499123C18BFC38A008DAF74 /* TBManagedObjectTransformer.m */; };
+		E499124B18BFC38A008DAF74 /* TBParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E499123E18BFC38A008DAF74 /* TBParseOperation.m */; };
+		E499124C18BFC38A008DAF74 /* TBPropertyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = E499124018BFC38A008DAF74 /* TBPropertyMap.m */; };
+		E499124D18BFC38A008DAF74 /* TBRemoteIdentifierToManagedObjectIDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E499124218BFC38A008DAF74 /* TBRemoteIdentifierToManagedObjectIDCache.m */; };
+		E499124E18BFC38A008DAF74 /* TBRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E499124418BFC38A008DAF74 /* TBRemoteObject.m */; };
+		E499124F18BFC38A008DAF74 /* TBRemoteObjectTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = E499124618BFC38A008DAF74 /* TBRemoteObjectTraversal.m */; };
+		E499125018BFC38A008DAF74 /* TBValueTransformations.m in Sources */ = {isa = PBXBuildFile; fileRef = E499124918BFC38A008DAF74 /* TBValueTransformations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,23 +55,21 @@
 		E4278F241891D37700C2F8BF /* TBSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBSerializationTests.m; sourceTree = "<group>"; };
 		E4278F2E1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TBRecursiveKVC.h"; sourceTree = "<group>"; };
 		E4278F2F1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBRecursiveKVC.m"; sourceTree = "<group>"; };
-		E4278F301891D39200C2F8BF /* TBManagedObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBManagedObjectTransformer.h; sourceTree = "<group>"; };
-		E4278F311891D39200C2F8BF /* TBManagedObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBManagedObjectTransformer.m; sourceTree = "<group>"; };
-		E4278F321891D39200C2F8BF /* TBParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBParseOperation.h; sourceTree = "<group>"; };
-		E4278F331891D39200C2F8BF /* TBParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBParseOperation.m; sourceTree = "<group>"; };
-		E4278F341891D39200C2F8BF /* TBPersistence-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TBPersistence-Info.plist"; sourceTree = "<group>"; };
-		E4278F351891D39200C2F8BF /* TBPersistence-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBPersistence-Prefix.pch"; sourceTree = "<group>"; };
-		E4278F361891D39200C2F8BF /* TBPropertyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPropertyMap.h; sourceTree = "<group>"; };
-		E4278F371891D39200C2F8BF /* TBPropertyMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPropertyMap.m; sourceTree = "<group>"; };
-		E4278F381891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteIdentifierToManagedObjectIDCache.h; sourceTree = "<group>"; };
-		E4278F391891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteIdentifierToManagedObjectIDCache.m; sourceTree = "<group>"; };
-		E4278F3A1891D39200C2F8BF /* TBRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteObject.h; sourceTree = "<group>"; };
-		E4278F3B1891D39200C2F8BF /* TBRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteObject.m; sourceTree = "<group>"; };
-		E4278F3C1891D39200C2F8BF /* TBRemoteObjectTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteObjectTraversal.h; sourceTree = "<group>"; };
-		E4278F3D1891D39200C2F8BF /* TBRemoteObjectTraversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteObjectTraversal.m; sourceTree = "<group>"; };
-		E4278F3E1891D39200C2F8BF /* TBSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSerializable.h; sourceTree = "<group>"; };
-		E4278F3F1891D39200C2F8BF /* TBValueTransformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBValueTransformations.h; sourceTree = "<group>"; };
-		E4278F401891D39200C2F8BF /* TBValueTransformations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBValueTransformations.m; sourceTree = "<group>"; };
+		E499123B18BFC38A008DAF74 /* TBManagedObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBManagedObjectTransformer.h; sourceTree = "<group>"; };
+		E499123C18BFC38A008DAF74 /* TBManagedObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBManagedObjectTransformer.m; sourceTree = "<group>"; };
+		E499123D18BFC38A008DAF74 /* TBParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBParseOperation.h; sourceTree = "<group>"; };
+		E499123E18BFC38A008DAF74 /* TBParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBParseOperation.m; sourceTree = "<group>"; };
+		E499123F18BFC38A008DAF74 /* TBPropertyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPropertyMap.h; sourceTree = "<group>"; };
+		E499124018BFC38A008DAF74 /* TBPropertyMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPropertyMap.m; sourceTree = "<group>"; };
+		E499124118BFC38A008DAF74 /* TBRemoteIdentifierToManagedObjectIDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteIdentifierToManagedObjectIDCache.h; sourceTree = "<group>"; };
+		E499124218BFC38A008DAF74 /* TBRemoteIdentifierToManagedObjectIDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteIdentifierToManagedObjectIDCache.m; sourceTree = "<group>"; };
+		E499124318BFC38A008DAF74 /* TBRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteObject.h; sourceTree = "<group>"; };
+		E499124418BFC38A008DAF74 /* TBRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteObject.m; sourceTree = "<group>"; };
+		E499124518BFC38A008DAF74 /* TBRemoteObjectTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteObjectTraversal.h; sourceTree = "<group>"; };
+		E499124618BFC38A008DAF74 /* TBRemoteObjectTraversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteObjectTraversal.m; sourceTree = "<group>"; };
+		E499124718BFC38A008DAF74 /* TBSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSerializable.h; sourceTree = "<group>"; };
+		E499124818BFC38A008DAF74 /* TBValueTransformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBValueTransformations.h; sourceTree = "<group>"; };
+		E499124918BFC38A008DAF74 /* TBValueTransformations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBValueTransformations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,23 +131,21 @@
 			children = (
 				E4278F2E1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.h */,
 				E4278F2F1891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m */,
-				E4278F301891D39200C2F8BF /* TBManagedObjectTransformer.h */,
-				E4278F311891D39200C2F8BF /* TBManagedObjectTransformer.m */,
-				E4278F321891D39200C2F8BF /* TBParseOperation.h */,
-				E4278F331891D39200C2F8BF /* TBParseOperation.m */,
-				E4278F341891D39200C2F8BF /* TBPersistence-Info.plist */,
-				E4278F351891D39200C2F8BF /* TBPersistence-Prefix.pch */,
-				E4278F361891D39200C2F8BF /* TBPropertyMap.h */,
-				E4278F371891D39200C2F8BF /* TBPropertyMap.m */,
-				E4278F381891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.h */,
-				E4278F391891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m */,
-				E4278F3A1891D39200C2F8BF /* TBRemoteObject.h */,
-				E4278F3B1891D39200C2F8BF /* TBRemoteObject.m */,
-				E4278F3C1891D39200C2F8BF /* TBRemoteObjectTraversal.h */,
-				E4278F3D1891D39200C2F8BF /* TBRemoteObjectTraversal.m */,
-				E4278F3E1891D39200C2F8BF /* TBSerializable.h */,
-				E4278F3F1891D39200C2F8BF /* TBValueTransformations.h */,
-				E4278F401891D39200C2F8BF /* TBValueTransformations.m */,
+				E499123B18BFC38A008DAF74 /* TBManagedObjectTransformer.h */,
+				E499123C18BFC38A008DAF74 /* TBManagedObjectTransformer.m */,
+				E499123D18BFC38A008DAF74 /* TBParseOperation.h */,
+				E499123E18BFC38A008DAF74 /* TBParseOperation.m */,
+				E499123F18BFC38A008DAF74 /* TBPropertyMap.h */,
+				E499124018BFC38A008DAF74 /* TBPropertyMap.m */,
+				E499124118BFC38A008DAF74 /* TBRemoteIdentifierToManagedObjectIDCache.h */,
+				E499124218BFC38A008DAF74 /* TBRemoteIdentifierToManagedObjectIDCache.m */,
+				E499124318BFC38A008DAF74 /* TBRemoteObject.h */,
+				E499124418BFC38A008DAF74 /* TBRemoteObject.m */,
+				E499124518BFC38A008DAF74 /* TBRemoteObjectTraversal.h */,
+				E499124618BFC38A008DAF74 /* TBRemoteObjectTraversal.m */,
+				E499124718BFC38A008DAF74 /* TBSerializable.h */,
+				E499124818BFC38A008DAF74 /* TBValueTransformations.h */,
+				E499124918BFC38A008DAF74 /* TBValueTransformations.m */,
 				E4278F111891D37700C2F8BF /* Images.xcassets */,
 				E4278F061891D37700C2F8BF /* Supporting Files */,
 			);
@@ -262,7 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4278F441891D39200C2F8BF /* TBPersistence-Info.plist in Resources */,
 				E4278F0A1891D37700C2F8BF /* InfoPlist.strings in Resources */,
 				E4278F121891D37700C2F8BF /* Images.xcassets in Resources */,
 			);
@@ -284,14 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4278F0C1891D37700C2F8BF /* main.m in Sources */,
-				E4278F481891D39200C2F8BF /* TBRemoteObjectTraversal.m in Sources */,
+				E499124F18BFC38A008DAF74 /* TBRemoteObjectTraversal.m in Sources */,
 				E4278F411891D39200C2F8BF /* NSMutableDictionary+TBRecursiveKVC.m in Sources */,
-				E4278F461891D39200C2F8BF /* TBRemoteIdentifierToManagedObjectIDCache.m in Sources */,
-				E4278F471891D39200C2F8BF /* TBRemoteObject.m in Sources */,
-				E4278F451891D39200C2F8BF /* TBPropertyMap.m in Sources */,
-				E4278F421891D39200C2F8BF /* TBManagedObjectTransformer.m in Sources */,
-				E4278F491891D39200C2F8BF /* TBValueTransformations.m in Sources */,
-				E4278F431891D39200C2F8BF /* TBParseOperation.m in Sources */,
+				E499124D18BFC38A008DAF74 /* TBRemoteIdentifierToManagedObjectIDCache.m in Sources */,
+				E499124E18BFC38A008DAF74 /* TBRemoteObject.m in Sources */,
+				E499124C18BFC38A008DAF74 /* TBPropertyMap.m in Sources */,
+				E499124A18BFC38A008DAF74 /* TBManagedObjectTransformer.m in Sources */,
+				E499125018BFC38A008DAF74 /* TBValueTransformations.m in Sources */,
+				E499124B18BFC38A008DAF74 /* TBParseOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +486,7 @@
 				E4278F2A1891D37700C2F8BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4278F2B1891D37700C2F8BF /* Build configuration list for PBXNativeTarget "TBSerializationTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +495,7 @@
 				E4278F2D1891D37700C2F8BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

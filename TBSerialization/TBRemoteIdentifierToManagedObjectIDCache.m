@@ -92,6 +92,10 @@ NSString *TBCacheKeyForRemoteIdentifierOfClass(NSNumber *remoteIdentifier, NSStr
         NSMutableArray *remoteIDs = [[NSMutableArray alloc] init];
         for (TBRemoteObject *remoteObject in remoteObjects) {
 
+            if (![remoteObject hasUniqueIdentifier]) {
+                break;
+            }
+
             id remoteID = [remoteObject jsonValueForUniqueIdentifier];
 
             if (remoteID) {
